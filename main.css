@@ -12,39 +12,30 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
-    
+
 }
 .btn{
     text-align: center;
-    
+
 }
 
 .head_name {
     text-align: center;
     color: white;
-    
+
 }
 
 
 .profile_name{
-    
     text-align: center;
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
     transform: scale(0.94);
     animation-name: scale;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-@keyframes scale{
-    0%{
-        font-style: bold;
-        font-family: 'Anton', sans-serif;
-    }
-    100%{
-        font-weight: lighter;
-        
-    }
-  }
+
 
 
 
@@ -53,12 +44,12 @@ body{
     background-size: cover;
 }
 .container{
-    
+
     display: block;
     color: white;
     text-align: center;
-    
-    
+
+
 }
 
 
@@ -73,7 +64,7 @@ body{
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    
+
 
 }
 
@@ -96,11 +87,11 @@ body{
 }
 
 .social_links{
-    
+
     display: flex;
     justify-content: space-evenly;
-    
-    
+
+
 
 }
 
@@ -109,7 +100,7 @@ body{
     background-image: url('macOS-BS1.jpg');
     display: flex;
     justify-content: center;
-}   
+}
 
 
 .navbar-nav{
