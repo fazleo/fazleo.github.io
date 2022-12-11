@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.btn{
+    text-align: center;
+    
+}
+
+.head_name {
+    text-align: center;
+    color: white;
+    
+}
+
+
+.profile_name{
+    
+    text-align: center;
+    font-weight: bold;
+    transform: scale(0.94);
+    animation-name: scale;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes scale{
+    0%{
+        font-style: bold;
+        font-family: 'Anton', sans-serif;
+    }
+    100%{
+        font-weight: lighter;
+        
+    }
+  }
+
+
+
+body{
+    background-image: url('skel.jpg');
+    background-size: cover;
+}
+.container{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+.head_name{
+    padding-left: 0cm;
+    padding-right: 16cm;
+    padding-top: 3cm;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes example{
+    0%   {color:red; left:0px; top:0px; font-size: 30px;}
+    25%  {color:yellow; left:200px; top:0px; font-size: 15px;}
+    50%  {color:blue; left:200px; top:200px; font-size: 20px;}
+    75%  {color:green; left:0px; top:200px; font-size: 25px;}
+    100% {color:red; left:0px; top:0px; font-size: 30px;}
+}
+
+
+
+
+
+
+
+.nav-list1{
+    margin-left: -1cm;
+}
+
+.social_links{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+
+.body_container{
+    background-image: url('macOS-BS1.jpg');
+    display: flex;
+    justify-content: center;
+}   
+
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
