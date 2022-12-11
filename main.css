@@ -30,10 +30,6 @@ html{
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    transform: scale(0.94);
-    animation-name: scale;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
 
 
